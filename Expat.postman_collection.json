@@ -1,0 +1,80 @@
+{
+	"info": {
+		"_postman_id": "108f8bef-bba4-4d2b-895e-1e1e167c1fa7",
+		"name": "Expat",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Posts",
+			"item": [
+				{
+					"name": "Get all posts",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://expat.loc/api/posts",
+							"protocol": "http",
+							"host": [
+								"expat",
+								"loc"
+							],
+							"path": [
+								"api",
+								"posts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get post by id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://expat.loc/api/posts/4",
+							"protocol": "http",
+							"host": [
+								"expat",
+								"loc"
+							],
+							"path": [
+								"api",
+								"posts",
+								"4"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Pages",
+			"item": [
+				{
+					"name": "Get home page data",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://expat.loc/api/pages",
+							"protocol": "http",
+							"host": [
+								"expat",
+								"loc"
+							],
+							"path": [
+								"api",
+								"pages"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
