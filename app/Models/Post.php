@@ -10,7 +10,6 @@ class Post extends Model
     use HasSlug;
 
     protected $fillable = [
-        'published',
         'title',
         'content',
     ];
@@ -24,4 +23,8 @@ class Post extends Model
         return $this->belongsToMany('App\Models\Page');
     }
 
+    public function comments()
+    {
+        return $this->hasMany('App\Models\Comment');
+    }
 }

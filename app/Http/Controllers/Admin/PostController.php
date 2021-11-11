@@ -9,6 +9,11 @@ class PostController extends ModuleController
 {
     protected $moduleName = 'posts';
 
+    protected $indexOptions = [
+        'permalink' => false,
+        'publish' => false,
+    ];
+
     protected $indexColumns = [
         'title' => [
             'title' => 'Title',

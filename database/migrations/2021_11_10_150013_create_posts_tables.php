@@ -8,7 +8,7 @@ class CreatePostsTables extends Migration
     public function up()
     {
         Schema::create('posts', function (Blueprint $table) {
-            createDefaultTableFields($table);
+            createDefaultTableFields($table, true, false);
             $table->string('title', 200)->nullable();
             $table->text('content')->nullable();
         });

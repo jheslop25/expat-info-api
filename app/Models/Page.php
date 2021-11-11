@@ -10,7 +10,6 @@ class Page extends Model
     protected $fillable = [
         'name',
         'path',
-        'published'
     ];
 
     public function posts(): \Illuminate\Database\Eloquent\Relations\BelongsToMany

@@ -9,7 +9,8 @@ class PageController extends ModuleController
     protected $moduleName = 'pages';
 
     protected $indexOptions = [
-        'permalink' => false
+        'permalink' => false,
+        'publish' => false,
     ];
 
     protected $titleColumnKey = 'name';
