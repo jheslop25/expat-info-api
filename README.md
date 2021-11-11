@@ -19,7 +19,7 @@ The postman collection is in the root of the app
 4. Run `composer install`
 5. Run `php artisan migrate --seed` command
 6. This will create the db tables and will create a new admin user with credentials
-`username` - admin@gmail.com, `password` - 123132
+`username` - admin@gmail.com, `password` - 123123
 7. Now you can access the admin panel with url http://expat.loc/admin
 8. Login and add a new page with name `Home`
 9. Add posts specifying the Page as Home in order to see the posts in Home page under recent posts section
